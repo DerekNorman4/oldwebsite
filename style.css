@@ -5,26 +5,29 @@ html, body{
 body {
     /* background-color: rgba(105, 165, 210, 0.60); */
     margin: 0;
-    background-color: black;
+    background-color: #494949;
+    opacity: 0.6;
 }
 
 body::-webkit-scrollbar { 
     display: none; 
 }
 
+
+
   nav{
     display: flex;
     width: 100%;
     height: 5%;
     /* background: rgba(105, 165, 210, 0.788); */
-    background: white;
+    background: #565656;
     align-items: center;
     justify-content: center;
   }
   
   a{
     text-decoration: none;
-    color: rgb(92, 91, 99);
+    color: #c09f80;
     margin: 0 40px;
   }
   
@@ -50,13 +53,13 @@ body::-webkit-scrollbar {
   .font_size {
       font-size: 60px;
       font-family: 'Oswald', sans-serif;
-      color: gainsboro;
+      color: #c09f80;
   }
 
   .body_paragraphs {
       font-size: 18px;
       text-align: center;
-      color: gainsboro;
+      color: #c09f80;
       padding-top: 30px;
       padding-left: 50px;
       padding-right: 50px;
@@ -64,8 +67,9 @@ body::-webkit-scrollbar {
   .about_me_position {
       padding-top: 15px;
       padding-left: 30px;
-      color: gainsboro;
+      color: #c09f80;
   }
+  
 
   @media (max-width: 600px) {
     nav{
@@ -73,20 +77,20 @@ body::-webkit-scrollbar {
         width: 100%;
         height: 5%;
         /* background: rgba(105, 165, 210, 0.788); */
-        background: white;
+        background: #565656;
         align-items: center;
         justify-content: center;
       }
 
       a {
         text-decoration: none;
-        color: rgb(92, 91, 99);
+        color: #c09f80;
         margin: 0 20px;
       }
 
       .body_paragraphs {
         text-align: center;
-        color: gainsboro;
+        color: #c09f80;
         padding-top: 10px;
         padding-left: 15px;
         padding-right: 15px;
