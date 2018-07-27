@@ -5,13 +5,14 @@ html, body{
 body {
     /* background-color: rgba(105, 165, 210, 0.60); */
     margin: 0;
-    background-color: #494949;
-    opacity: 0.6;
+    background-image: url("bluebackgroundimage.jpg");
+    opacity: 0.7;
 }
 
 body::-webkit-scrollbar { 
     display: none; 
 }
+
 
 
 
@@ -27,7 +28,7 @@ body::-webkit-scrollbar {
   
   a{
     text-decoration: none;
-    color: #c09f80;
+    color: white;
     margin: 0 40px;
   }
   
@@ -53,13 +54,13 @@ body::-webkit-scrollbar {
   .font_size {
       font-size: 60px;
       font-family: 'Oswald', sans-serif;
-      color: #c09f80;
+      color: white;
   }
 
   .body_paragraphs {
       font-size: 18px;
       text-align: center;
-      color: #c09f80;
+      color: white;
       padding-top: 30px;
       padding-left: 50px;
       padding-right: 50px;
@@ -67,7 +68,7 @@ body::-webkit-scrollbar {
   .about_me_position {
       padding-top: 15px;
       padding-left: 30px;
-      color: #c09f80;
+      color: white;
   }
   
 
@@ -84,13 +85,13 @@ body::-webkit-scrollbar {
 
       a {
         text-decoration: none;
-        color: #c09f80;
+        color: white;
         margin: 0 20px;
       }
 
       .body_paragraphs {
         text-align: center;
-        color: #c09f80;
+        color: white;
         padding-top: 10px;
         padding-left: 15px;
         padding-right: 15px;
