@@ -1,0 +1,94 @@
+html, body{
+    height: 100%;
+  }
+  
+body {
+    /* background-color: rgba(105, 165, 210, 0.60); */
+    margin: 0;
+    background-color: black;
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
+  nav{
+    display: flex;
+    width: 100%;
+    height: 5%;
+    /* background: rgba(105, 165, 210, 0.788); */
+    background: white;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(92, 91, 99);
+    margin: 0 40px;
+  }
+  
+  .portfolio_pic {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 20px;
+
+  }
+
+  .round_port_pic {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+  }
+
+  .name_placement {
+      padding-top: 30px;
+    
+  }
+
+  .font_size {
+      font-size: 60px;
+      font-family: 'Oswald', sans-serif;
+      color: gainsboro;
+  }
+
+  .body_paragraphs {
+      font-size: 18px;
+      text-align: center;
+      color: gainsboro;
+      padding-top: 30px;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  .about_me_position {
+      padding-top: 15px;
+      padding-left: 30px;
+      color: gainsboro;
+  }
+
+  @media (max-width: 600px) {
+    nav{
+        display: flex;
+        width: 100%;
+        height: 5%;
+        /* background: rgba(105, 165, 210, 0.788); */
+        background: white;
+        align-items: center;
+        justify-content: center;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(92, 91, 99);
+        margin: 0 20px;
+      }
+
+      .body_paragraphs {
+        text-align: center;
+        color: gainsboro;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
