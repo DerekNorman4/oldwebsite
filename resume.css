@@ -29,6 +29,12 @@ a{
   margin: 0 40px;
 }
 
+.pdf_size {
+  height: 100vh;
+  width: 100vh;
+  overflow: hidden;
+}
+
 @media (max-width: 600px) {
   nav{
       display: flex;
