@@ -26,10 +26,12 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
   }
-
   
-  
-  a{
+  .project-title {
+    padding-bottom: 750px;
+    padding-left: 50px;
+  }
+  .nav-a {
     text-decoration: none;
     color: white;
     margin: 0 40px;
@@ -65,7 +67,6 @@ body::-webkit-scrollbar {
 
   .short_description {
     display: block;
-
     position: absolute;
     top: 55%;
     left: 50%;
@@ -76,9 +77,10 @@ body::-webkit-scrollbar {
     font : normal 300 28px/1 'Josefin Sans', sans-serif;
     text-align: center;
     white-space: nowrap;
+    padding-top: 20px;
   }
   
-  #section01 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg01.jpg) center center / cover no-repeat;}
+  #section01 { background: url("bouncing_ball3.gif") center center / cover no-repeat;}
   #section02 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg02.jpg) center center / cover no-repeat;}
   #section03 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;}
   #section04 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;}
