@@ -30,8 +30,9 @@ a{
 }
 
 .pdf_size {
-  height: 100vh;
-  width: 100vh;
+
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
