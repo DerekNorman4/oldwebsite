@@ -7,8 +7,8 @@ html, body{
 body {
     /* background-color: rgba(105, 165, 210, 0.60); */
     margin: 0;
-    background-image: url("bluebackgroundimage.jpg");
-    opacity: 0.7;
+    background-image: url("elegante_blue.jpg");
+    background-size: cover;
 }
 
 body::-webkit-scrollbar { 
@@ -25,6 +25,7 @@ body::-webkit-scrollbar {
     background: #565656;
     align-items: center;
     justify-content: center;
+    opacity: 0.6;
   }
   
   .project-title {
@@ -66,7 +67,7 @@ body::-webkit-scrollbar {
   }
 
   .short_description {
-    display: block;
+    display: flex;
     position: absolute;
     top: 55%;
     left: 50%;
@@ -76,8 +77,8 @@ body::-webkit-scrollbar {
     color: #fff;
     font : normal 300 28px/1 'Josefin Sans', sans-serif;
     text-align: center;
-    white-space: nowrap;
     padding-top: 20px;
+    
   }
   
   #section01 { background: url("bouncing_ball3.gif") center center / cover no-repeat;}
@@ -113,12 +114,12 @@ body::-webkit-scrollbar {
   
   
   #section01 a {
-    padding-top: 60px;
+    padding-top: 35px;
     margin-left: -30px;
   }
   #section01 a span {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -161,12 +162,12 @@ body::-webkit-scrollbar {
   
   
   #section02 a {
-    padding-top: 60px;
+    padding-top: 35px;
     margin-left: -30px;
   }
   #section02 a span {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -193,12 +194,12 @@ body::-webkit-scrollbar {
   
   
   #section03 a {
-    padding-top: 60px;
+    padding-top: 35px;
     margin-left: -30px;
   }
   #section03 a span {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -270,12 +271,12 @@ body::-webkit-scrollbar {
   
   
   #section04 a {
-    padding-top: 60px;
+    padding-top: 35px;
     margin-left: -30px;
   }
   #section04 a span {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -316,12 +317,12 @@ body::-webkit-scrollbar {
   
   
   #section05 a {
-    padding-top: 60px;
+    padding-top: 35px;
     margin-left: -30px;
   }
   #section05 a span {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -363,12 +364,12 @@ body::-webkit-scrollbar {
   
   
   #section06 a {
-    padding-top: 60px;
+    padding-top: 35px;
     margin-left: -30px;
   }
   #section06 a span {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -409,12 +410,12 @@ body::-webkit-scrollbar {
 
   
   #section07 a {
-    padding-top: 60px;
+    padding-top: 35px;
     margin-left: -30px;
   }
   #section07 a span {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -457,12 +458,12 @@ body::-webkit-scrollbar {
   
   
   #section08 a {
-    padding-top: 60px;
+    padding-top: 35px;
     margin-left: -30px;
   }
   #section08 a span {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -504,12 +505,12 @@ body::-webkit-scrollbar {
   
   
   #section09 a {
-    padding-top: 60px;
+    padding-top: 35px;
     margin-left: -30px;
   }
   #section09 a span {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -552,12 +553,12 @@ body::-webkit-scrollbar {
   
   
   #section10 a {
-    padding-top: 60px;
+    padding-top: 35px;
     margin-left: -60px;
   }
   #section10 a span {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -612,4 +613,59 @@ body::-webkit-scrollbar {
         color: #c09f80;
         margin: 0 20px;
       }
+
+
+      #section01 a {
+        padding-top: 80px;
+        margin-left: -30px;
+      }
+      #section02 a {
+        padding-top: 80px;
+        margin-left: -30px;
+      }
+      #section03 a {
+        padding-top: 80px;
+        margin-left: -30px;
+      }
+      #section04 a {
+        padding-top: 80px;
+        margin-left: -30px;
+      }
+      #section05 a {
+        padding-top: 80px;
+        margin-left: -30px;
+      }
+      #section06 a {
+        padding-top: 80px;
+        margin-left: -30px;
+      }
+      #section07 a {
+        padding-top: 80px;
+        margin-left: -30px;
+      }
+      #section08 a {
+        padding-top: 80px;
+        margin-left: -30px;
+      }
+      #section09 a {
+        padding-top: 80px;
+        margin-left: -30px;
+      }
+      
+      section h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 2;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font : normal 300 64px/1 'Josefin Sans', sans-serif;
+        text-align: center;
+        white-space: normal;
+      }
+      
+
+      
+      
   }
