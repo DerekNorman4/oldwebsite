@@ -57,23 +57,31 @@ body::-webkit-scrollbar {
 
 #social-icon {
 position: fixed;
-top: 50px;
+bottom: 5px;
 left: 0;
 padding-bottom: 10px;
 
 }
 
+#social-icon2 {
+  position: fixed;
+  bottom: 50px;
+  left: -2px;
+  padding-bottom: 10px;
+  
+  }
+
 .linkedin-icon {
-  height: 90px;
-  width: 90px;
+  height: 45px;
+  width: 45px;
   border-radius: 50%;
 }
 
-.social-link {
-  height: 80px;
-  width: 80px;
+.github-icon {
+  height: 40px;
+  width: 40px;
 }
-  @media (max-width: 600px) {
+   @media (max-width: 600px) {
     nav{
         display: flex;
         width: 100%;
@@ -89,4 +97,63 @@ padding-bottom: 10px;
         color: white;
         margin: 0 20px;
       }
+
+      .contact_pos {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+        padding-top: 20px;
     }
+  
+    .contact_info_pos {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        font-size: 25px;
+        color: white;
+        padding-top: 200px;
+    }
+  
+    .contact_info_pos2 {
+      display: flex;
+      justify-content: center;
+      font-size: 25px;
+      color: white;
+      padding-top: 20px;
+  }
+  
+  #social-icon {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+    justify-content: space-between;
+  position: fixed;
+  bottom: 5px;
+  left: 0;
+  padding-top: 10px;
+  }
+
+  #social-icon2 {
+    position: fixed;
+    bottom: 50px;
+    left: -3px;
+    padding-bottom: 10px;
+    
+    }
+
+  .linkedin-icon {
+    
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+  }
+  
+  .github-icon {
+    height: 33px;
+    width: 33px;
+  }
+
+    } 
+    

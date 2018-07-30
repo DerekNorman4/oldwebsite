@@ -74,6 +74,22 @@ body::-webkit-scrollbar {
   
 
   @media (max-width: 600px) {
+    html, body{
+        height: 100%;
+      }
+      
+    body {
+        /* background-color: rgba(105, 165, 210, 0.60); */
+        margin: 0;
+        background-image: url("elegante_blue.jpg"); 
+        background-size: 400vh;
+        
+    }
+    
+    body::-webkit-scrollbar { 
+        display: none; 
+    }
+
     nav{
         display: flex;
         width: 100%;
